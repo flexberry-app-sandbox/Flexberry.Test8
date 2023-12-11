@@ -38,7 +38,51 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Номенклатура",
+          "lookupValueField": "номенклатура",
+          "relationName": "Номенкалтура",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Номенкалтура.Контраагенты",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "контрагент",
+                  "caption": "Контраагенты",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "контраагенты",
+              "relatedTo": "i-i-s-test-контраагенты",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номенклатура",
+              "caption": "Номенклатура",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Номенкалтура",
+          "name": "номенкалтура",
+          "relatedTo": "i-i-s-test-номенкалтура",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {

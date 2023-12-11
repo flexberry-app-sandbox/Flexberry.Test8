@@ -34,4 +34,32 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "цена" "message")}}
   </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-test-тест-e.номенкалтура-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.номенкалтура
+      displayAttributeName="номенклатура"
+      autocomplete=true
+      relationName="номенкалтура"
+      projection="НоменкалтураL"
+      title=(t "forms.i-i-s-test-тест-e.номенкалтура-caption")
+      readonly=readonly
+      componentName="номенкалтураLookup"
+      class=(if (v-get validationModel "номенкалтура" "isInvalid") "error")
+      data-test-i-i-s-test-тест-e-номенкалтура=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номенкалтура" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.номенкалтура.контраагенты.контрагент
+      class=(if (v-get validationModel.номенкалтура.контраагенты "контрагент" "isInvalid") "error")
+      label=(t "forms.i-i-s-test-тест-e.номенкалтура.контраагенты.контрагент-caption")
+      data-test-i-i-s-test-тест-e-номенкалтура-контраагенты-контрагент=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.номенкалтура.контраагенты "контрагент" "message")}}
+  </div>
 </form>

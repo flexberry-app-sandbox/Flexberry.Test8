@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-test-тест-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-test-тест-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-test-тест-l.title'),
-            icon: 'folder open',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-test-контраагенты-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-test-контраагенты-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-test-контраагенты-l.title'),
-            icon: 'list',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-test-номенкалтура-l',
             caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-test-номенкалтура-l.caption'),
             title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-test-номенкалтура-l.title'),
-            icon: 'list',
+            icon: 'file',
             children: null
           }]
         }
