@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Контраагенты",
+  "name": "IISTestКонтраагентыE",
+  "className": "КонтраагентыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-контраагенты",
+      "modelProjection": "КонтраагентыE"
+    }
+  ]
+}

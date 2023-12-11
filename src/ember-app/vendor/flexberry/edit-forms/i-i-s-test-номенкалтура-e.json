@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Контраагенты",
+      "projection": "КонтраагентыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Номенкалтура",
+  "name": "IISTestНоменкалтураE",
+  "className": "НоменкалтураE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-номенкалтура",
+      "modelProjection": "НоменкалтураE"
+    }
+  ]
+}

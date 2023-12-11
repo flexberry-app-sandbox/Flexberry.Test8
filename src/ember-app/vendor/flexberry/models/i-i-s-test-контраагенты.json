@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISTestКонтраагенты",
+  "modelName": "i-i-s-test-контраагенты",
+  "className": "Контраагенты",
+  "nameSpace": "IIS.Test",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "контрагент",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтраагентыE",
+      "modelName": "i-i-s-test-контраагенты",
+      "attrs": [
+        {
+          "name": "контрагент",
+          "caption": "Контрагент",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КонтраагентыL",
+      "modelName": "i-i-s-test-контраагенты",
+      "attrs": [
+        {
+          "name": "контрагент",
+          "caption": "Контрагент",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

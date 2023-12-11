@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-контраагенты-e",
+  "editForm": "i-i-s-test-контраагенты-e",
+  "external": false,
+  "caption": "Контраагенты",
+  "name": "IISTestКонтраагентыL",
+  "className": "КонтраагентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-контраагенты",
+      "modelProjection": "КонтраагентыL"
+    }
+  ]
+}

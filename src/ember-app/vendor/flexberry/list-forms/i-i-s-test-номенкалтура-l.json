@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-номенкалтура-e",
+  "editForm": "i-i-s-test-номенкалтура-e",
+  "external": false,
+  "caption": "Номенкалтура",
+  "name": "IISTestНоменкалтураL",
+  "className": "НоменкалтураL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-номенкалтура",
+      "modelProjection": "НоменкалтураL"
+    }
+  ]
+}

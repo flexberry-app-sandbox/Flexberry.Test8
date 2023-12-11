@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Test",
+  "applicationTitle": "Test",
+  "items": [
+    {
+      "link": null,
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
+      "children": [
+        {
+          "link": "i-i-s-test-тест-l",
+          "menuName": null,
+          "caption": "ТестL",
+          "title": "Тест",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-контраагенты-l",
+          "menuName": null,
+          "caption": "КонтраагентыL",
+          "title": "Контраагенты",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-номенкалтура-l",
+          "menuName": null,
+          "caption": "НоменкалтураL",
+          "title": "Номенкалтура",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
